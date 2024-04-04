@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài kt2</title>
+    <style>
+        ul{
+        width:100%;
+        list-style: none;
+        margin:0;
+        padding:0;
+        background-color: white;
+       color:rgb(64, 64, 64);
+        position:fixed;
+        overflow:hidden;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+    ul li{
+        float:left;
+        display:inline;
+    
+    }
+    ul li.right-align{
+        float:right;
+    }
+    ul li:last-child{
+        border-right: none;
+        float:right;
+    
+    }
+    ul li a{
+        text-decoration: none;
+        display:block;
+        padding:21px 13px;
+        color:rgb(51, 51, 51);
+        text-align: center;
+    }
+    ul li a.active{
+        
+        color:rgb(207, 4, 4);
+        padding:21px 13px;
+    }
+    ul li a:hover:not(.active){
+        
+        color:rgb(200, 17, 17);
+    }
+    body{
+        margin:0;
+    }
+    div{
+        margin-top: 20px;
+        margin-left: 5px;
+        padding:5px 5px;
+        height:1000px;
+          
+    }
+.container {display:flex;
+    width:100%;
+    font-family: sans-serif;
+    font-size: 15pt;
+    margin: 0 auto;
+    
+    text-decoration: none;
+}
+.container_inner{
+    
+    justify-content: space-evenly;
+    font-size: 10pt;
+    margin-left:10px;
+    float:left;
+    
+}
+.block{
+    
+    color:black;
+    width: 50%;
+    background-color: white ;
+    height:200px;
+    
+}
+.block a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.block img{
+    width:100%;
+    
+}
+       </style> 
+</head>
+<body>
+    <ul>
+        <li><a href="#" class="active" >TRANG CHỦ </a> </li>
+        <li><a href="#">TIN CHÍNH</a> </li>
+        <li><a href="#">MỚI</a> </li>
+        <li><a href="#">KHÁM PHÁ</a> </li>
+        <li class="right-align"><a href="#">GIAO THÔNG</a> </li>
+        <li><a href="#">XÃ HỘI</a> </li>
+        
+    </ul>
+
+    <div class="container">
+        <div  >
+            <a href="#"><img src="dhbachkhoa.jpg" style="width:100%" ></a><br>
+            <a href="#" style="text-decoration: none;color:black;
+            font-weight: bold;font-size: 25px;" >Trường Đại học Bách Khoa Hà Nội đưa ra phương án tuyển sinh năm 2024</a>
+            
+        </div> 
+        
+        <div class="container_inner">
+            <div class="block">
+                <a href="#"><img src="anhlotus1.jpg" ></a><br>
+                <a href="#"> Lotus - mạng xã hội xoay quanh nội dung do người Việt phát triển và làm chủ.</a>
+            </div>
+            <div class="block">
+                <a href="#"><img src="anhlotus2.jpg" ></a><br>
+                <a href="#">Phiên bản Beta của mạng xã hội Lotus ra mắt công chúng tối 16/9/2019</a>
+            </div>
+        </div>  
+        <div class="container_inner">
+            <a href="#"><img src="wweb vaycuoi.jpg" style="width:100%;" ></a><br>
+        </div>
+    </div>        
+</body>
+</html>
