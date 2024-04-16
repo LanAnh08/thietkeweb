@@ -1,0 +1,85 @@
+ul{
+    list-style: none;
+    margin:0px;
+    padding:5px;
+    background-color: rgb(247, 98, 122);
+    
+    overflow:hidden;
+    border-radius: 100px;
+    
+}
+ul li{
+    float:left;
+    
+
+}
+ul li:last-child{
+    border-right: none;
+    float:right;
+
+}
+ul li a{
+    text-decoration: none;
+    display:block;
+    padding:10px 15px;
+    
+    text-align: center;
+}
+body{
+    margin:0;
+}
+div{
+    margin-top: 10px;
+    margin-left: 5px;
+    padding:5px 5px;
+   
+
+}
+a.chu{
+    position:relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+a.chu::after{
+    content:'';
+    position:absolute;
+    bottom:3;
+    left:50%;
+    width:0%;
+    height:3px;
+    background-color: rgb(255, 255, 255);
+    transition:0.4s;
+
+}
+a.chu:hover::after{
+    width:100%;
+    left:0;
+}
+.toanbo {
+    width: 80%;
+    font-family: "Reddit Mono", serif;
+    margin:auto;
+}
+img{
+    width:40%;
+    margin-top: 40px;
+    
+}
+.con{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 0px;
+
+}
+h1,p{font-family: "Reddit Mono", serif;}
+h2{font-family: "Dancing Script", cursive;
+    font-size: 50px;
+}
+.div1{
+    background-color: rgb(247, 120, 141);
+    padding:10px;
+    color:white;
+}
