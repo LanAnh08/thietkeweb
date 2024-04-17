@@ -92,7 +92,9 @@ a.chu:hover::after{
 
 }
 h3,p{font-family: "Reddit Mono", serif;}
-
+h2{font-family: "Dancing Script", cursive;
+    font-size: 50px;
+}
 
 
 .div1{
